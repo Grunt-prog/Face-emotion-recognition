@@ -38,3 +38,12 @@ The emotion recognition model requires a labeled dataset of facial images repres
 
 <img width="960" alt="Screenshot 2023-07-17 044206" src="https://github.com/Grunt-prog/Face-emotion-recognition/assets/86661317/866a7509-fd9d-4441-b7ee-b5493839b64a">
 
+**Code Files Summary:**
+
+To create a face emotion model, we start by using the "face-emotion.ipynb" notebook in Google Colab. This notebook generates two crucial files: a JSON file containing the model architecture and a .h5 file containing the learned weights of the model. The model is trained to recognize emotions from facial expressions.
+
+Google Colab's powerful GPU acceleration is utilized to expedite the computation during the training process, ensuring faster model convergence and reduced training time.
+
+Once the model files (JSON and .h5) are generated, we can proceed to implement the inference step using the "face-emotion.py" script. By loading the model architecture and weights from the respective files, we can utilize the trained model to predict emotions from new facial images.
+
+In summary, we leverage Google Colab with GPU acceleration to efficiently train and generate the face emotion model files, and then integrate these files into the "face-emotion.py" script to perform emotion recognition on unseen facial data. This approach combines the benefits of cloud-based computing and GPU acceleration to achieve accurate and efficient emotion prediction from facial expressions.
