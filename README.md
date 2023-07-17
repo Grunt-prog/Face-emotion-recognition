@@ -6,7 +6,7 @@ This project is an implementation of a Face Emotion Recognition system using Con
 
 **Features**
 
-Real-time Emotion Recognition: The CNN model is capable of analyzing facial expressions in real-time, making it suitable for applications that require live emotion detection from camera feeds or video streams.
+Real-time Emotion Recognition: The CNN model is capable of analyzing facial expressions in real time, making it suitable for applications that require live emotion detection from camera feeds or video streams.
 
 **Multi-class Emotion Classification:**
 
@@ -16,7 +16,7 @@ The model can classify facial emotions into multiple classes, such as happiness,
 
 The CNN architecture used for emotion recognition is capable of automatically learning and extracting meaningful features from facial images, enabling accurate emotion prediction.
 
-**Pre-trained Model Option: **
+**Pre-trained Model Option:**
 
 For faster development and deployment, a pre-trained CNN model may be included as part of this project. However, it is recommended to train the model on a custom dataset specific to the user's application for optimal accuracy.
 
