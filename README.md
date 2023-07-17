@@ -38,6 +38,7 @@ The emotion recognition model requires a labeled dataset of facial images repres
 
 <img width="960" alt="Screenshot 2023-07-17 044206" src="https://github.com/Grunt-prog/Face-emotion-recognition/assets/86661317/866a7509-fd9d-4441-b7ee-b5493839b64a">
 
+
 **Code Files Summary:**
 
 To create a face emotion model, we start by using the "face-emotion.ipynb" notebook in Google Colab. This notebook generates two crucial files: a JSON file containing the model architecture and a .h5 file containing the learned weights of the model. The model is trained to recognize emotions from facial expressions.
